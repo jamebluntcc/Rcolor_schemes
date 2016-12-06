@@ -1,4 +1,4 @@
-# 这个文件将会作为onmath可视化的基本配色方案和主题设置
+# 这个仓库作为onmath可视化的基本配色方案和主题设置
 
 配色方案基于[**karthik's wesanderson**](https://github.com/karthik/wesanderson)和[**RColorBrewer**](https://github.com/cran/RColorBrewer)
 
