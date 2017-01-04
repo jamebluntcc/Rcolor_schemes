@@ -41,6 +41,15 @@ devtools::install_github("karthik/wesanderson")
 basic_theme <- theme_bw()
 ```
 在实际作图过程中，大部分图的theme都是以theme_bw()作为的基础，根据具体情况进行优化和补充。
+由于图片要插入文章或者其它内容中所以在保存的时候要将字体设置为加粗和放大。
+```
+basic_theme = theme_bw()+theme(
+	axis.text = element_text(face = "bold",color = "black",size = rel(1.5)),
+	axis.title = element_text(face = "bold",color = "black",size = rel(1.5)),
+	#if you need split the plot
+	strip.text = element_text(face = "bold",color = "black",size = rel(1.5))
+)
+```
 ## forexample
 - boxplot for div5 in RColorBrewer
 
