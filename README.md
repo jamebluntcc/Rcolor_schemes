@@ -50,4 +50,4 @@ basic_theme <- theme_bw()
 
 - a demo of onmath_theme
 
-![image](./figure/demo.png)
+![image](./figure/onmath_demo.png)
